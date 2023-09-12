@@ -6,4 +6,27 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
 }
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    padding: 20px; 
+    background-color: white;
+    background-size: 240px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.logo-text {
+    font-size: 34px;
+    vertical-align: middle;
+}
+
