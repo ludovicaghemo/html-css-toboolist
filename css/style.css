@@ -9,11 +9,6 @@ body {
     background-color: #f6f8f9;
 }
 
-.container {
-    width: 95%;
-    margin: 0 auto;
-}
-
 /* HEADER */
 header {
     padding: 20px; 
@@ -30,3 +25,61 @@ header {
     vertical-align: middle;
 }
 
+.container {
+    width: 70%;
+    margin: 0 auto;
+} 
+
+
+/* NAV */
+nav {
+    width: 600px;
+    height: 35px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 9px; 
+    
+}
+
+.task {
+     height: 17px;
+     width: 50px;
+     font-size: 8px;
+     text-align: center;
+     color: white;
+     background-color: #47adf1;
+     border-color: #47adf1;
+     border-radius: 4px;
+     margin-top: 10px;
+     margin-left: 25px;
+     margin-bottom: 7px;
+}
+
+.section {
+    height: 17px;
+    width: 60px;
+    font-size: 8px;
+    text-align: center;
+    background-color: white;
+    color: lightgray;
+    border-color: lightgray;
+    border-radius: 4px;
+}
+/* line height per centrarlo dentro il contenitore? */
+
+/* MAIN */
+/*white container*/
+/* .container { 
+    width: 3200px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 300px;
+    height: 2200px;
+    background-color: white
+    border-radius: 40px;    */
+/* } */
+
+/* .container {
+    width: 100%;
+    margin: 0 auto;
+}  */
