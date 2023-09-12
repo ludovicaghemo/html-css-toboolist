@@ -33,9 +33,9 @@ header {
 
 /* NAV */
 nav {
-    width: 600px;
-    height: 35px;
-    margin: 40px auto;
+    width: 99%;
+    height: 35%;
+    margin: 40px auto 0 auto;
     background-color: white;
     border-radius: 9px; 
     
@@ -69,17 +69,22 @@ nav {
 
 /* MAIN */
 /*white container*/
-/* .container { 
-    width: 3200px;
-    margin: auto;
-    margin-top: 70px;
-    padding: 300px;
-    height: 2200px;
-    background-color: white
-    border-radius: 40px;    */
-/* } */
+.container-main { 
+    width: 99%;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 9px; 
 
-/* .container {
-    width: 100%;
-    margin: 0 auto;
-}  */
+    /* width: 3200px;
+    height: 300px; */
+    /* margin: auto; */
+    /* margin-top: 70px;
+    padding: 300px; */
+    /* height: 2200px; */
+    /* background-color: white;
+    border-radius: 9px;     */
+ }
+
+ li{
+    list-style-type: none;
+ }
