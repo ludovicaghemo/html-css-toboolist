@@ -12,7 +12,9 @@ body {
 
 /* HEADER */
 .header {
-    padding: 20px; 
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
     background-color: white;
     background-size: 240px;
 }
@@ -23,102 +25,89 @@ body {
 
 .logo-text {
     font-size: 34px;
+    font-weight: 100;
     vertical-align: middle;
 }
 
-.container {
-    width: 70%;
-    margin: 0 auto;
-} 
-
-
 /* NAV */
 nav {
-    width: 99%;
-    height: 35%;
-    margin: 40px auto 0 auto;
+    width: 70%;
+    margin: 40px auto 0;
     background-color: white;
     border-radius: 9px; 
     
 }
 
-.task {
-     height: 17px;
-     width: 50px;
-     font-size: 8px;
-     text-align: center;
-     color: white;
-     background-color: #47adf1;
-     border-color: #47adf1;
-     border-radius: 4px;
-     margin-top: 10px;
-     margin-left: 25px;
-     margin-bottom: 7px;
-}
-
-.section {
-    height: 17px;
-    width: 60px;
+.btn {
+    font-family: inherit;
+    padding: 5px 8px;
     font-size: 8px;
     text-align: center;
-    background-color: white;
+    border-radius: 4px;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.new-task {
+     background-color: #47adf1;
+     border-color: #47adf1;
+     color: white;
+     margin: 10px auto 7px 25px;
+}
+
+.new-section {
     color: lightgray;
     border-color: lightgray;
-    border-radius: 4px;
+    background-color: white;
 }
-/* line height per centrarlo dentro il contenitore? */
+
 
 /* MAIN */
 /*white container*/
 .container-main { 
-    width: 99%;
+    width: 70%;
+    margin: 2px auto;
     margin-top: 2px;
     background-color: white;
     border-radius: 9px;
     padding: 30px 0 30px 30px;
  }
 
- li{
+ li {
     list-style-type: none;
-    /* padding-left: 30px; */
+    margin-bottom: 12px;
+    
  }
 
-.check {
+.circle {
+    border: 2px solid;
+    border-radius: 50%;
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
     text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px 5px;
+}
+
+.check { 
     color: #81cebd;
     border-color: #81cebd;
-    border-width: 50px;
-    /* background-color: white; */
-    border-radius: 50%;
 }
 
 .cross {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
     color: #f28e88;
     border-color: #f28e88;
-    border-width: 5px;
-    border-radius: 50%;
-    /* background-color: white; */
+    
 }
 
 .lable {
     display: inline-block;
-    width: 45px;
-    height: 20px;
-    line-height: 20px;
     text-align: center;
     border-radius: 9px;
     font-size: 8px;
     color: white;
-    padding: 1px 2px 2px 2px;
+    padding: 6px;
 }
 
 .editorial {
