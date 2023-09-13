@@ -1,3 +1,4 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body {
 }
 
 /* HEADER */
-header {
+.header {
     padding: 20px; 
     background-color: white;
     background-size: 240px;
@@ -108,8 +109,7 @@ nav {
     /* background-color: white; */
 }
 
-.lable-editorial {
-    background-color: #47adf1;
+.lable {
     display: inline-block;
     width: 45px;
     height: 20px;
@@ -119,69 +119,28 @@ nav {
     font-size: 8px;
     color: white;
     padding: 1px 2px 2px 2px;
+}
+
+.editorial {
+    background-color: #47adf1;
 }
  
-.lable-goals {
+.goals {
     background-color: purple;
-    display: inline-block;
-    width: 45px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 9px;
-    font-size: 8px;
-    color: white;
-    padding: 1px 2px 2px 2px;
 }
 
-.lable-recruiting {
+.recruiting {
     background-color: #64c0a9;
-    display: inline-block;
-    width: 45px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 9px;
-    font-size: 8px;
-    color: white;
-    padding: 1px 2px 2px 2px;
 }
 
-.lable-mobile {
+.mobile {
     background-color: orange;
-    display: inline-block;
-    width: 45px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 9px;
-    font-size: 8px;
-    color: white;
-    padding: 1px 2px 2px 2px;
 }
 
-.lable-website {
+.website {
     background-color: #d863a1;
-    display: inline-block;
-    width: 45px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 9px;
-    font-size: 8px;
-    color: white;
-    padding: 1px 2px 2px 2px;
 }
 
-.lable-sales {
+.sales {
     background-color: #b0c926;
-    display: inline-block;
-    width: 45px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 9px;
-    font-size: 8px;
-    color: white;
-    padding: 1px 2px 2px 2px;
 }
