@@ -1,3 +1,8 @@
+:root{
+    --bg-color: #c5e1f0;
+    --primary-color: #f147d2;
+}
+
 /* RESET */
 *{
     margin: 0;
@@ -7,7 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f6f8f9;
+    background-color: var(--bg-color);
 }
 
 /* HEADER */
@@ -39,6 +44,7 @@ nav {
 }
 
 .btn {
+    display: inline-block;
     font-family: inherit;
     padding: 5px 8px;
     font-size: 8px;
@@ -76,6 +82,7 @@ nav {
  li {
     list-style-type: none;
     margin-bottom: 12px;
+    display: inline-block;
     
  }
 
